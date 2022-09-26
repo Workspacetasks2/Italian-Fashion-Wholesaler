@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}   
+.header{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.header .navbar{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+.header .navbar .navbar_menu{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;  
+    padding-left: 300px;
+}
+.header .navbar .navbar_menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 74px;
+}
+.header .navbar .navbar_menu ul li a{
+    padding: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.hero_section{
+    background-color: #2B343D;
+    width: 100%;
+    padding-top: 60px;
+}
+.hero_boxes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.hero_boxes .box1 .box1content h1{
+    color: white;
+    font-size: 25px;
+}
+.hero_boxes .box1 .box1content p{
+    font-size: 25px;
+    color: #607381;
+}
+.box4content{
+    background-color:#ccced0;
+    width: 398px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 25px;
+}
+.box4{
+    display: flex;
+    margin-left: 300px;
+}
+.box4content2{
+        background-color: #ccced0;
+        width: 398px;
+        margin-left: 20px;
+}
+.box5content{
+    background-color:#ccced0;
+    width: 398px;
+    margin-top: 5px;
+    font-size: 25px;
+    padding: 10px;
+}
+.box5{
+    display: flex;
+    margin-left: 295px;
+    margin-top: 10px;
+}
+.box5content2{
+        background-color:#8A9094;
+        width: 398px;
+        margin-left: 20px;
+        font-size: 30px;
+        padding: 15px;
+}
+.box6 p{
+    font-size: 13px;
+    word-spacing: 1px;
+}
+.box4content p{
+    font-size: 15px;
+}
+.box4content li{
+    font-size: 12px;
+}
+.box4content2{
+    font-size: 30px;
+    padding: 15px;
+}
+.box4content2 li{
+    font-size: 15px;
+    padding: bottom 2px ;
+}
+.box5content p{
+    font-size: 13px;
+}
+.box5content li{
+    font-size: 15px;
+}
+.box5content2 p{
+    font-size: 15px;
+}
+.box5content2 li{
+    font-size: 15px;
+}
+.box6content{  
+    margin-left: 280px;
+}
